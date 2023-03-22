@@ -7,6 +7,7 @@ class VirtViewer < Formula
   depends_on "intltool" => :build
   depends_on "libtool" => :build
   depends_on "pkg-config" => :build
+  depends_on "gobject-introspection" => :build
 
   depends_on "atk"
   depends_on "cairo"
